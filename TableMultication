@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int N,i=13,S;
+    printf("veuillez saisir un nombre");
+    scanf("%d",&N);
+    printf("le de mutiplication de %d est:",N);
+
+    for(i=0;i<13;i++){
+        S=N*i;
+        printf("_%d * %d = %d",N,i,S);
+        printf("\n");
+
+    }
+}
